@@ -84,9 +84,7 @@
     
 }
 /* Main section */
-.main{
-    /* margin-top: 80px; */
-}
+
 .main-div{
     display: flex;
     padding: 100px 120px;
@@ -144,7 +142,7 @@
 
 .title-2 img{
     
-    /* background-image: url("../images/architect.png"); */
+    
     max-width: 100%;
     max-height: 100%;
     background-position: center;
@@ -215,30 +213,7 @@
 
 }
 
-/* .years {
-    position: relative;
-    width: 342px;
-    height: 200px;
-    background: #FF900E;
-    border-radius: 8px;
-    text-align: center;
-    margin-top: 107.5%;
-} */
 
-/* .years h1 {
-    font-weight: 700;
-    font-size: 65px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.years p {
-    font-weight: 500;
-    font-size: 25px;
-    text-align: center;
-    color: #FFFFFF;
-
-} */
 
 /* -----------------------
  Features End Style
@@ -422,13 +397,12 @@
  Responsive Design for Mobile device Style
  ----------------------------------------- */
 
- /* @media screen and (max-with:570px) {
- } */
+  @media screen and (max-width: 576px) { 
+    .nav-div{
+        
+    }
+ } 
 
-  /* media query bujte Parci but onak try korlam puro siter jonno Apply korte parlam
-  16 houre try kore bartho holam but Asa asari nai In Shaa Allaha Akdin Sofol Hobo   */
-  
-    
- /* --------------------------------------
+ /*-----------------------------------
  Responsive Design for Mobile device Style
  ----------------------------------------- */
