@@ -128,24 +128,30 @@
  Features Start Style
  ........................ */
  .features {
+    padding: 80px ;
     display: flex;
     justify-content: center
+    
 }
 
 .title {
-    width: 50%; 
+    width: 100%; 
     padding-right: 50px;
 }
+.title-2{
+    text-align: center;
+}
 
-.title-2 {
+.title-2 img{
     
-    background-image: url("../images/architect.png");
+    /* background-image: url("../images/architect.png"); */
     max-width: 100%;
     max-height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
+   
 }
 
 .box-title {
@@ -177,11 +183,11 @@
 }
 
 .box-1 {
-    margin-top: 24px;
+    margin-top: 15px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
-    padding: 30px;
+    padding: 15px;
 }
 
 .box-1-title {
@@ -197,8 +203,19 @@
     color: #727272;
 
 }
+.btn-sp span{
+    font-weight: 700;
+    font-size: 65px;
+}
+.btn-sp{
+    padding: 45px;
+    position: relative;
+    bottom: 200px;
+    z-index: 1;
 
-.years {
+}
+
+/* .years {
     position: relative;
     width: 342px;
     height: 200px;
@@ -206,15 +223,11 @@
     border-radius: 8px;
     text-align: center;
     margin-top: 107.5%;
-}
+} */
 
-.years h1 {
-    padding-left: 42px;
-    padding-right: 42px;
-    padding-top: 46px;
+/* .years h1 {
     font-weight: 700;
     font-size: 65px;
-    line-height: 70px;
     text-align: center;
     color: #FFFFFF;
 }
@@ -222,11 +235,10 @@
 .years p {
     font-weight: 500;
     font-size: 25px;
-    line-height: 40px;
     text-align: center;
     color: #FFFFFF;
 
-}
+} */
 
 /* -----------------------
  Features End Style
