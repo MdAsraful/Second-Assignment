@@ -45,9 +45,6 @@
 
 
 .header-div{
-    
-    
-
     height: 100%;
     width: 100%;   /* border: 1px solid red ;   */
 
@@ -56,7 +53,7 @@
     text-align: center;
     margin: 50px 240px;
     /* border: 1px solid red; */
-    position: absolute;
+    /* position: absolute; */
     
     
 }
@@ -128,26 +125,23 @@
 }
 
 /* -----------------------
- Love Start Style
+ Features Start Style
  ........................ */
- .love {
+ .features {
     display: flex;
-    gap: 54px;
-    margin-top: 117px;
-    align-items: center;
+    justify-content: center
 }
 
 .title {
-    width: 586px;
-    height: 982px;
-    /* background-color: red; */
-    margin-left: 240px;
+    width: 50%; 
+    padding-right: 50px;
 }
 
 .title-2 {
-    height: 1059px;
-    width: 800px;
+    
     background-image: url("../images/architect.png");
+    max-width: 100%;
+    max-height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -170,7 +164,6 @@
 .heding {
     font-weight: 700;
     font-size: 45px;
-    line-height: 70px;
     color: #131313;
     padding-left: 10px;
 
@@ -179,15 +172,12 @@
 .sub-title {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     color: #727272;
     margin-top: 24px;
 }
 
 .box-1 {
     margin-top: 24px;
-    width: 586px;
-    height: 171px;
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
     border-radius: 8px;
@@ -198,14 +188,12 @@
     margin-bottom: 10px;
     font-weight: 600;
     font-size: 20px;
-    line-height: 23px;
     color: #131313;
 }
 
 .box-1-description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     color: #727272;
 
 }
@@ -241,17 +229,18 @@
 }
 
 /* -----------------------
- love End Style
+ Features End Style
  ........................ */
 
 /* -----------------------
  Some-Facts Start Style
  ........................ */
 
-
+.some-fact-section{
+    padding: 100px;
+}
 .Some-Facts {
-    margin-top: 151px;
-    margin-left: 280px;
+    text-align: center;
 
 }
 
@@ -259,36 +248,24 @@
     color: #131313;
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
 }
 
 .sf-description {
     margin-top: 24px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
     color: #727272;
 }
 
-/* -----------------------
- Some-Facts Start Style
- ----------------------- */
-/* -----------------------
- Card Start Style
- ........................ */
+
 .cards {
-    margin-left: 270px;
     margin-top: 100px;
     display: flex;
-    gap: 124px;
-
-
+    justify-content: space-evenly;
 }
 
 .card {
     text-align: center;
-    width: 240px;
-    height: 240px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     padding: 36px 45px;
@@ -303,22 +280,18 @@
 .card img {
     width: 45.22px;
     height: 45.22px;
-    margin-bottom: 10px;
 }
 
 .card h1 {
     font-weight: 600;
     font-size: 45px;
-    line-height: 53px;
     color: #424242;
-    margin-bottom: 10px;
 
 }
 
 .card p {
     font-weight: 600;
     font-size: 16px;
-    line-height: 23px;
     color: #727272;
 }
 
@@ -328,19 +301,20 @@
 /* -----------------------
  Sponsor Start Style
  ........................ */
-.Sponsors {
-    margin-top: 180px;
-    width: 542px;
-    height: 129px;
-    margin-left: 690px;
-    text-align: center;
+ .sponsor{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 100px ;
+    
+ }
 
+.Sponsors {
+    text-align: center;
 }
 
 .Sponsors h1 {
     font-weight: 700;
     font-size: 45px;
-    line-height: 53px;
     color: #131313;
     margin-bottom: 24px;
 }
@@ -348,92 +322,42 @@
 .Sponsors p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
-    text-align: center;
     color: #727272;
 
 }
 
-/* -----------------------
- Sponsor End Style
- ........................ */
-
-/* -----------------------
- Clients Start Style
- ........................ */
 .clients {
     margin-top: 50px;
-    margin-left: 240px;
     display: flex;
-    gap: 150px;
+    justify-content: space-evenly;
+    
+}
+.client{
+    filter: grayscale(100%);
 }
 
-/* -----------------------
- Clients End Style
- ........................ */
-/* -----------------------
- Footer Start Style
- ........................ */
+/* Sponsor End Style*/
+
+
+/* Footer Start Style */
 .footer {
-    margin-top: 170px;
-    width: 1440px;
-    height: 100px;
+    margin: 0px 150px 100px 150px;
+    padding: 40px 150px;
     background: #FFF4E7;
     border-radius: 8px;
-    margin-left: 240px;
-    text-align: center;
-    margin-bottom: 216px;
+    
 }
 
 .footer p {
-    padding-top: 40px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
     text-align: center;
     color: #424242;
 }
 
 
-.Exta-section {
-    margin-top: 100px;
-    margin-left: 240px;
-    display: flex;
-    gap: 96px;
-    align-items: center;
-    width: 1440px;
-    height: 270px;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-    border-radius: 10px;
-}
 
-.image-exta {
-    background-image: url(../images/gear.png);
-    width: 501px;
-    height: 270px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
-}
-
-.text-exta h1 {
-    font-weight: 700;
-    font-size: 38px;
-    line-height: 60px;
-    color: #0A0826;
-}
-
-.text-exta p {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 28px;
-    color: #6C6C6C;
-}
-
-/* -----------------------
- Footer End Style
- ........................ */
+/* Footer End Style */
 
  /* Latest Courses Section */
 
