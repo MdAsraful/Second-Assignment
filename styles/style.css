@@ -1,23 +1,452 @@
 /* Common Utilityes */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;600;700&display=swap');
-
-
 *{
     margin: 0;
-}
-body{
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-
 
 /* This is Header Section */
 
 .header{
     
     width: 100%;
-    height: 100vh;
-    padding: 50px 240px 85px 240px;
+    height:950px;
     background-color: rgba(255, 144, 14, 0.1);
+    /* border: 2px solid red ; */  
+    
 }
+/* Nave section Style  */
+.nav-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+.nav-sub-div ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-header{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+.nav-sub-div ul li{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+
+
+.header-div{
+    
+    
+
+    height: 100%;
+    width: 100%;   /* border: 1px solid red ;   */
+
+}
+.header-div-sub{
+    text-align: center;
+    margin: 50px 240px;
+    /* border: 1px solid red; */
+    position: absolute;
+    
+    
+}
+.header-div-sub h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+.header-div-sub p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 5px;
+}
+.btn{
+    margin-top: 50px;
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.header-div-sub img{
+    max-width: 100%;
+    max-height: 100%; 
+    margin-top: 50px; 
+    
+}
+/* Main section */
+.main{
+    /* margin-top: 80px; */
+}
+.main-div{
+    display: flex;
+    padding: 100px 120px;
+}
+
+
+.main-grid-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px ;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;
+}
+.color-change1{
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.main-peragraph{
+    font-weight: 700;
+    font-size: 45px;
+}
+.color-change2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+.main-sec-pragraph{
+    margin-top: 20px;
+
+}
+
+/* -----------------------
+ Love Start Style
+ ........................ */
+ .love {
+    display: flex;
+    gap: 54px;
+    margin-top: 117px;
+    align-items: center;
+}
+
+.title {
+    width: 586px;
+    height: 982px;
+    /* background-color: red; */
+    margin-left: 240px;
+}
+
+.title-2 {
+    height: 1059px;
+    width: 800px;
+    background-image: url("../images/architect.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    width: 8px;
+    height: 106px;
+    background-color: #FF900E;
+    ;
+}
+
+.heding {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    color: #131313;
+    padding-left: 10px;
+
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.box-1 {
+    margin-top: 24px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.box-1-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.box-1-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.years {
+    position: relative;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 107.5%;
+}
+
+.years h1 {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 46px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.years p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* -----------------------
+ love End Style
+ ........................ */
+
+/* -----------------------
+ Some-Facts Start Style
+ ........................ */
+
+
+.Some-Facts {
+    margin-top: 151px;
+    margin-left: 280px;
+
+}
+
+.sf-text {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sf-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* -----------------------
+ Some-Facts Start Style
+ ----------------------- */
+/* -----------------------
+ Card Start Style
+ ........................ */
+.cards {
+    margin-left: 270px;
+    margin-top: 100px;
+    display: flex;
+    gap: 124px;
+
+
+}
+
+.card {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 36px 45px;
+    transition: transform 0.3s ease-in;
+
+}
+
+.card:hover {
+    transform: translateY(-10px)
+}
+
+.card img {
+    width: 45.22px;
+    height: 45.22px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-bottom: 10px;
+
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -----------------------
+ Card End Style
+ ........................ */
+/* -----------------------
+ Sponsor Start Style
+ ........................ */
+.Sponsors {
+    margin-top: 180px;
+    width: 542px;
+    height: 129px;
+    margin-left: 690px;
+    text-align: center;
+
+}
+
+.Sponsors h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.Sponsors p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+
+}
+
+/* -----------------------
+ Sponsor End Style
+ ........................ */
+
+/* -----------------------
+ Clients Start Style
+ ........................ */
+.clients {
+    margin-top: 50px;
+    margin-left: 240px;
+    display: flex;
+    gap: 150px;
+}
+
+/* -----------------------
+ Clients End Style
+ ........................ */
+/* -----------------------
+ Footer Start Style
+ ........................ */
+.footer {
+    margin-top: 170px;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    text-align: center;
+    margin-bottom: 216px;
+}
+
+.footer p {
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
+
+
+.Exta-section {
+    margin-top: 100px;
+    margin-left: 240px;
+    display: flex;
+    gap: 96px;
+    align-items: center;
+    width: 1440px;
+    height: 270px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.image-exta {
+    background-image: url(../images/gear.png);
+    width: 501px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.text-exta h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.text-exta p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+/* -----------------------
+ Footer End Style
+ ........................ */
+
+
+ /* --------------------------------------
+ Responsive Design for Mobile device Style
+ ----------------------------------------- */
+
+ /* @media screen and (max-with:570px) {
+ } */
+
+  /* media query bujte Parci but onak try korlam puro siter jonno Apply korte parlam
+  16 houre try kore bartho holam but Asa asari nai In Shaa Allaha Akdin Sofol Hobo   */
+  
+    
+ /* --------------------------------------
+ Responsive Design for Mobile device Style
+ ----------------------------------------- */
